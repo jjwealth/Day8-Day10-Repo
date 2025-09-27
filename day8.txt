@@ -1,3 +1,6 @@
 Day 8: Testing Git Remotes
 Change from Dev B
+
 Change from Dev B
+
+Change from Dev A
