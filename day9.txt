@@ -1,1 +1,2 @@
 Day 9: Dev A starts feature-logging branch
+Dev B adds more logs to day9.txt
