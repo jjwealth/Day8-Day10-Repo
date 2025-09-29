@@ -2,3 +2,4 @@
 Mastering cloning, collaboration, pull requests, team workflow &amp; GitHub Action
 # Day 8 - Day 10 Practice Repo
 Day 9: Dev A updated README with project description
+Day 9: Dev A also updated README with different notes
