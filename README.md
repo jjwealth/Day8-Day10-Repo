@@ -9,3 +9,6 @@ Day 9: Dev A updated README with project description
 Day 9: Dev B updated README with collaboration notes
 
 Dev A: Adding line for web-based conflict simulation
+
+This is Dev A's update in README.
+ 
