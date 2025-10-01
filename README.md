@@ -9,6 +9,10 @@ Day 9: Dev A updated README with project description
 Day 9: Dev B updated README with collaboration notes
 
 Dev A: Adding line for web-based conflict simulation
+<<<<<<< HEAD
 
 This is Dev A's update in README.
  
+=======
+Day 9: Dev B added a different line for README collaboration notes
+>>>>>>> 8b38774 (Dev B: conflicting update to README)
