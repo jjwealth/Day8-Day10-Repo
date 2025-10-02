@@ -1,0 +1,21 @@
+{
+  "name": "day8-day10-repo",
+  "version": "1.0.0",
+  "description": "Mastering cloning, collaboration, pull requests, team workflow &amp; GitHub Action\r # Day 8 - Day 10 Practice Repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjwealth/Day8-Day10-Repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjwealth/Day8-Day10-Repo/issues"
+  },
+  "homepage": "https://github.com/jjwealth/Day8-Day10-Repo#readme"
+}
