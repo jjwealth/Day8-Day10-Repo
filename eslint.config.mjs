@@ -1,10 +1,29 @@
+// eslint.config.mjs
 import js from "@eslint/js";
-import globals from "globals";
-import tseslint from "typescript-eslint";
-import { defineConfig } from "eslint/config";
 
-export default defineConfig([
-  { files: ["**/*.{js,mjs,cjs,ts,mts,cts}"], plugins: { js }, extends: ["js/recommended"], languageOptions: { globals: globals.node } },
-  { files: ["**/*.js"], languageOptions: { sourceType: "script" } },
-  tseslint.configs.recommended,
-]);
+export default [
+  // keep recommended JS rules
+  js.configs.recommended,
+
+  // project-specific settings
+  {
+    languageOptions: {
+      // declare Node globals so `console` and `process` are not flagged as undefined
+      globals: {
+        console: "readonly",
+        process: "readonly"
+      },
+      ecmaVersion: 2021,
+      sourceType: "module"
+    },
+
+    rules: {
+      // relax console usage (turn off the no-console error)
+      "no-console": "off",
+
+      // keep (or re-add) other useful rules you want enforced
+      semi: ["error", "always"],
+      quotes: ["error", "double"]
+    }
+  }
+];
